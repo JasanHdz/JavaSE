@@ -1,0 +1,14 @@
+## Shorcuts for linux in Visual Studio Code
+
+ctrl + x: delete line
+Ctrl + C: copy line
+Alt + ↑ / ↓: move line
+Ctrl + Shift + K: Delete line
+Ctrl + Enter + /: Insert line below / above
+Ctrl + Shift + Enter: Add Space o Salto de linea
+Ctrl+] / Ctrl+[ : Line de sangria perdia, o esconder contenido de las brackets
+Ctrl+ ↑ / ↓: Scroll line up/down
+Ctrl+ Shift + [ / ] Fold/unfold region
+
+
+
