@@ -1,0 +1,36 @@
+package com.jasanhdz.amazonviewer.model;
+
+public class Serie extends Film {
+	
+	private int id;
+	private int sessionQuatity; 
+	private Chapter[] chapters;
+	
+	public Serie(String title, String genre, String creator, int duration, int sessionQuatity) {
+		super(title, genre, creator, duration);
+		this.sessionQuatity = sessionQuatity;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public int getSessionQuatity() {
+		return sessionQuatity;
+	}
+
+	public void setSessionQuatity(int sessionQuatity) {
+		this.sessionQuatity = sessionQuatity;
+	}
+
+	public Chapter[] getChapters() {
+		return chapters;
+	}
+
+	public void setChapters(Chapter[] chapters) {
+		this.chapters = chapters;
+	}
+	
+	
+
+}

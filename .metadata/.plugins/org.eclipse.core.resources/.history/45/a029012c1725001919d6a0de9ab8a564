@@ -1,0 +1,10 @@
+package com.jasanhdz.amazonviewer.model;
+
+public class Chapter {
+	
+	private int id;
+	private int sessionNumber;
+	
+	
+	
+}

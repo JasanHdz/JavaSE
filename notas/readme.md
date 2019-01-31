@@ -620,4 +620,20 @@ Permite especificar que la variable que esta señalando es de la misma clase de 
 
 Si estoy en la clase movie y quiero referenciar a la clase film utilizaré Super, si estoy en la clase movie y quiero referenciar algún atributo de la clase movie utilizaré la palabra **this** 
 
+### Polimorfismo
 
+Cuando una clase hereda de otra, y en está clase hija se redefine un método con una implementación distinta a la de la clase padre.
+
+Es justamente lo que hicimos con el método toString, que el método toString provenía de la clase Object, y entonces le estamos dando otro comportamiento.
+
+**Restriccion para el Polimorfismo:** Los métodos que están marcados como final o static no se pueden sobrescribir.
+
+Otra cosa que podemos Sobrescribir son los constructores que les podemos dar otro comportamiento, podemos darle argumentos diferentes.
+
+Si yo tengo un método o un comportamiento de una clase padre y ahora al momento de sobrescribirlo le estoy dando otro comportamiento, estamos llegando a un **concepto muy clave en en Programación Orientada a Objetos** lo cúal es el **Polimorfismo**. 
+
+El Polimorfismo significa "Muchas Formas".
+
+El Polimorfismo nos dá la posibilidad de construir métodos, varios métodos con el mismo nombre pero con diferente comportamiento siempre y cuando esté aplicandose la herencia.
+
+Cuando sobrescribimos el método toString() estamos haciendo polimorfismo, cuando sobrescribimos el método constructor estamos aplicando Polimorfismo y cuando sobrescribamos cualquier otro método que esté heredando de otra clase.

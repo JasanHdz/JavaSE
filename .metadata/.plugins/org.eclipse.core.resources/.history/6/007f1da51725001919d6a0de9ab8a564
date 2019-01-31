@@ -1,0 +1,14 @@
+package com.jasanhdz.amazonviewer.model;
+
+public class Chapter extends Movie {
+	
+	private int id;
+	private int sessionNumber;
+	
+	public Chapter(String title, String genre, String creator, int duration) {
+		super(title, genre, creator, duration);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
