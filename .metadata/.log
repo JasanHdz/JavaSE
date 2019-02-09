@@ -1532,3 +1532,501 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2019-02-06 17:57:50.630 -----------------------------------------------
+eclipse.buildId=4.10.0.v20181211-1115
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.epp.logging.aeri.core 4 0 2019-02-06 17:57:56.991
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.logging.aeri.core [311]
+  Unresolved requirement: Import-Package: com.google.common.annotations; version="[18.0.0,21.0.0)"; resolution:="optional"
+  Unresolved requirement: Import-Package: com.google.common.base; version="[18.0.0,21.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.commons.notifications.ui 4 0 2019-02-06 17:57:57.037
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.notifications.ui [336]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.workbench [342]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.commons.repositories.ui 4 0 2019-02-06 17:57:57.041
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.repositories.ui [339]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.workbench [342]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.commons.ui 4 0 2019-02-06 17:57:57.044
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.ui [341]
+  Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.commons.workbench 4 0 2019-02-06 17:57:57.050
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.workbench [342]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.ui [341]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.context.tasks.ui 4 0 2019-02-06 17:57:57.058
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.context.tasks.ui [345]
+  Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.ui [362]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.notifications.ui [336]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                     org.eclipse.mylyn.commons.ui [341]
+                       Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.discovery.ui; bundle-version="3.8.0"; x-installation:="greedy"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.discovery.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.discovery.ui [349]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.repositories.ui [339]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.context.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.context.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.context.ui [346]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.workbench [342]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.context.ui 4 0 2019-02-06 17:57:57.065
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.context.ui [346]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.workbench [342]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.ide.ui 4 0 2019-02-06 17:57:57.069
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.ide.ui [351]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [354]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.context.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.context.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.context.ui [346]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.resources.ui 4 0 2019-02-06 17:57:57.073
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.resources.ui [354]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.ui [341]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.context.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.context.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.context.ui [346]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.tasks.bugs 4 0 2019-02-06 17:57:57.078
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.tasks.bugs [357]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.ui [341]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.ui [362]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.notifications.ui [336]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.discovery.ui; bundle-version="3.8.0"; x-installation:="greedy"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.discovery.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.discovery.ui [349]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                     org.eclipse.mylyn.commons.workbench [342]
+                       Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                         -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.repositories.ui [339]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.tasks.index.core 4 0 2019-02-06 17:57:57.081
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.tasks.index.core [359]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.tasks.ui 4 0 2019-02-06 17:57:57.085
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.tasks.ui [362]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.notifications.ui [336]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.discovery.ui; bundle-version="3.8.0"; x-installation:="greedy"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.discovery.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.discovery.ui [349]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.workbench [342]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.repositories.ui [339]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.team.ui 4 0 2019-02-06 17:57:57.091
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.team.ui [363]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.ui [362]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.notifications.ui [336]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                     org.eclipse.mylyn.commons.ui [341]
+                       Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.discovery.ui; bundle-version="3.8.0"; x-installation:="greedy"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.discovery.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.discovery.ui [349]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.repositories.ui [339]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.resources.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.resources.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.resources.ui [354]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.context.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.context.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.context.ui [346]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.workbench [342]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2019-02-06 17:57:57.094
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [364]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.bugzilla.rest.core 4 0 2019-02-06 17:57:57.096
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.rest.core [365]
+  Unresolved requirement: Require-Bundle: com.google.guava
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.core [358]
+         Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.bugzilla.rest.ui 4 0 2019-02-06 17:57:57.099
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.rest.ui [366]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="3.17.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.commons.workbench [342]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.ui [341]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.11.0"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2019-02-06 17:57:57.104
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [367]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [364]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.tasks.core [358]
+                Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.ui; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+       org.eclipse.mylyn.tasks.ui [362]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.notifications.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.notifications.ui [336]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                     org.eclipse.mylyn.commons.ui [341]
+                       Unresolved requirement: Require-Bundle: com.google.guava; bundle-version="[18.0.0,22.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.discovery.ui; bundle-version="3.8.0"; x-installation:="greedy"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.discovery.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.discovery.ui [349]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.workbench; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.workbench; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                     org.eclipse.mylyn.commons.workbench [342]
+                       Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                         -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="[3.8.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.repositories.ui; bundle-version="1.17.0.v20190108-0330"; singleton:="true"
+              org.eclipse.mylyn.commons.repositories.ui [339]
+                Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.ui; bundle-version="3.8.0"
+                  -> Bundle-SymbolicName: org.eclipse.mylyn.commons.ui; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.tasks.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.tasks.core; bundle-version="3.25.0.v20190108-0330"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
